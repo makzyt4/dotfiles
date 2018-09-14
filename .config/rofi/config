@@ -1,0 +1,24 @@
+! Rofi colors	   'bg',    'fg',    'bgalt', 'hlbg',  'hlfg'	
+rofi.color-normal: argb:00000000, #aaaaaa, argb:00000000, argb:72bbbbbb, #eeeeee
+rofi.color-window: argb:cc424242, argb:cc424242, argb:cc424242
+
+! Lines to show
+rofi.lines: 5
+
+! Font
+rofi.font: NotoMono Bold 16
+
+! Border width
+rofi.bw: 0
+
+! Set number of columns
+rofi.columns: 1
+
+! Disable sidebar mode
+rofi.sidebar-mode: false
+
+! Padding
+rofi.padding: 400
+
+! Full width
+rofi.width: 100

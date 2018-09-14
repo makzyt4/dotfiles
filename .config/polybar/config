@@ -1,0 +1,219 @@
+[settings]
+throttle-ms = 50
+throttle-limit = 5
+
+[bar/top]
+;monitor = DVI-I-1
+width = 100%
+height = 24
+
+background = #303030
+foreground = #eeeeee
+
+overline-size = 2
+overline-color = #bc92f8
+underline-size = 2
+underline-color = #bc92f8
+
+spacing = 0
+padding-right = 2
+module-margin-left = 0
+module-margin-right = 4
+
+font-0 = xos4 Terminess Powerline:bold:pixelsize=12;0
+font-1 = Wuncon Siji:pixelsize=12;0
+font-2 = Unifont:pixelsize=12;0
+
+modules-left = i3 mpd
+modules-center = xwindow
+modules-right = pulseaudio cpu memory wlan eth battery clock
+
+[module/i3]
+type = internal/i3
+
+format = <label-state> <label-mode>
+format-spacing = 0
+
+label-focused = %index%
+label-focused-padding = 3
+label-focused-margin = 0
+label-focused-font = 1
+label-focused-foreground = #eeeeee
+label-focused-underline = #7272ff
+
+label-unfocused = %index%
+label-unfocused-padding = 3
+label-unfocused-margin = 0
+label-unfocused-font = 1
+label-unfocused-background = #303030
+label-unfocused-foreground = #aaaaaa
+
+label-urgent = %index%
+label-urgent-padding = 2
+label-urgent-margin = 1
+label-urgent-font = 1
+label-urgent-background = #ff7272
+label-urgent-foreground = #30303
+
+label-visible = %index%
+label-visible-padding = 2
+label-visible-margin = 1
+label-visible-font = 1
+
+[module/cpu]
+type = internal/cpu
+interval = 0.5
+
+format = <label>
+format-foreground = #eeeeee
+format-underline = #72ff72
+format-padding = 2
+
+label = %{T2}%{T-} %percentage%%
+label-font = 2
+
+ramp-coreload-0 = ▁
+ramp-coreload-0-font = 3
+ramp-coreload-1 = ▂
+ramp-coreload-1-font = 3
+ramp-coreload-2 = ▃
+ramp-coreload-2-font = 3
+ramp-coreload-3 = ▄
+ramp-coreload-3-font = 3
+ramp-coreload-4 = ▅
+ramp-coreload-4-font = 3
+ramp-coreload-5 = ▆
+ramp-coreload-5-font = 3
+ramp-coreload-6 = ▇
+ramp-coreload-6-font = 3
+ramp-coreload-7 = █
+ramp-coreload-7-font = 3
+
+[module/memory]
+type = internal/memory
+
+format = <label>
+format-padding = 2
+format-foreground = #eeeeee
+format-underline = #ffff72
+
+label = %{T2}%{T-} %percentage_used%%
+label-font = 1
+
+[module/clock]
+type = internal/date
+interval = 1
+
+time = %{T2}%{T-} %H:%M
+
+format-padding = 2
+format-underline = #7272ff
+
+label = %time%
+
+[module/xwindow]
+type = internal/xwindow
+label = %title:0:30:...%
+
+[module/wlan]
+type = internal/network
+interface = wlp6s0
+interval = 3.0
+
+format-connected = <ramp-signal> <label-connected>
+format-connected-underline = #ff7272
+; label-connected = %essid% %{F#66}%local_ip%
+label-connected = %essid%
+label-disconnected = %{F#66c6b8e6}%{F#ccd8d4e6} not connected
+label-disconnected-foreground = #66c6b8e6
+
+ramp-signal-0 = 
+ramp-signal-1 = 
+ramp-signal-2 = 
+ramp-signal-3 = 
+ramp-signal-4 = 
+
+[module/eth]
+type = internal/network
+interface = enp3s0
+interval = 3.0
+
+format-connected-underline = #72ffff
+label-connected = %local_ip%
+
+format-disconnected =
+;format-disconnected =
+;format-disconnected-underline = ${self.format-connected-underline}
+;label-disconnected = %ifname% disconnected
+;label-disconnected-foreground = ${colors.foreground-alt}
+
+[module/pulseaudio]
+type = internal/pulseaudio
+
+format-padding = 2
+format-volume = <ramp-volume> <label-volume>
+format-volume-underline = #ff7272
+
+label-volume = %percentage%%
+label-volume-foreground = #eeeeee
+
+ramp-volume-0 = 
+ramp-volume-1 = 
+ramp-volume-2 = 
+ramp-volume-3 =  
+
+label-muted = %{T2}%{T-} muted
+label-muted-foreground = #505050
+
+[module/battery]
+type = internal/battery
+full-at = 100
+
+format-charging = <animation-charging> <label-charging>
+format-discharging = <ramp-capacity> <label-discharging>
+format-full =  <label-full>
+
+ramp-capacity-0 = 
+ramp-capacity-1 = 
+ramp-capacity-2 = 
+
+animation-charging-0 = 
+animation-charging-1 = 
+animation-charging-2 = 
+animation-charging-framerate = 750
+
+[module/mpd]
+type = internal/mpd
+
+format-online = <label-song>  <label-time> <icon-prev> <icon-seekb> <icon-stop> <toggle> <icon-seekf> <icon-next>
+format-offline = <label-offline>
+format-offline-foreground = #66
+label-offline = mpd is off
+
+label-song-maxlen = 30
+
+icon-prev = 
+icon-seekb = 
+icon-stop = 
+icon-play = 
+icon-pause = 
+icon-next = 
+icon-seekf = 
+
+icon-random = 
+icon-repeat = 
+
+toggle-on-foreground = #fba922
+toggle-off-foreground = #66c6b8e6
+
+bar-progress-width = 15
+bar-progress-indicator = 
+bar-progress-indicator-foreground = #bb
+bar-progress-fill = ─
+bar-progress-fill-foreground = #bb
+bar-progress-fill-font = 3
+bar-progress-empty = ─
+bar-progress-empty-foreground = #66c6b8e6
+bar-progress-empty-font = 3
+
+label-time-foreground = #66c6b8e6

@@ -1,0 +1,58 @@
+! Terminal font 
+URxvt.font: xft: xos4 Terminess Powerline:pixelsize=12, \
+	    xft: Wuncon Siji:pixelsize=12,\
+            xft: Unifont:pixelsize=12
+
+! Scrollbar
+URxvt.scrollBar: false
+
+! Load plugins
+URxvt.perl-ext-common: font-size
+
+! Lines of history to save
+URxvt.saveLines:        1000000
+
+! Font size plugin
+URxvt.keysym.C-Up:     font-size:increase
+URxvt.keysym.C-Down:   font-size:decrease
+URxvt.keysym.C-S-Up:   font-size:incglobal
+URxvt.keysym.C-S-Down: font-size:decglobal
+URxvt.keysym.C-equal:  font-size:reset
+URxvt.keysym.C-slash:  font-size:show
+
+! Font and background colors
+URxvt.background: #303030
+URxvt.foreground: #eeeeee
+
+! Black dark/light
+URxvt.color0: #303030
+URxvt.color8: #505050
+
+! Red dark/light
+URxvt.color1: #ff7272
+URxvt.color9: #ff7272
+
+! Green dark/light
+URxvt.color2: #72ff72
+URxvt.color10: #72ff72
+
+! Yellow dark/light
+URxvt.color3: #ffff72
+URxvt.color11: #ffff72
+
+! Blue dark/light
+URxvt.color4: #7272ff
+URxvt.color12: #7272ff
+
+! Magenta dark/light
+URxvt.color5: #ff72ff
+URxvt.color13: #ff72ff
+
+! Cyan dark/light
+URxvt.color6: #72ffff
+URxvt.color14: #72ffff
+
+! White dark/light
+URxvt.color7:  #808080
+URxvt.color15: #eeeeee
+
