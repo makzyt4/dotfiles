@@ -12,13 +12,13 @@ foreground = #eeeeee
 
 overline-size = 2
 overline-color = #bc92f8
-underline-size = 2
-underline-color = #bc92f8
+underline-size = 0
+underline-color = #7272ff
 
 spacing = 0
 padding-right = 2
 module-margin-left = 0
-module-margin-right = 4
+module-margin-right = 2
 
 font-0 = xos4 Terminess Powerline:bold:pixelsize=12;0
 font-1 = Wuncon Siji:pixelsize=12;0
@@ -30,26 +30,29 @@ modules-right = pulseaudio cpu memory wlan eth battery clock
 
 [module/i3]
 type = internal/i3
+pin-workspaces = true
+strip-wsnumbers = true
+index-sort = true
 
 format = <label-state> <label-mode>
 format-spacing = 0
 
-label-focused = %index%
-label-focused-padding = 3
+label-focused = %icon%
+label-focused-padding = 1
 label-focused-margin = 0
 label-focused-font = 1
 label-focused-foreground = #eeeeee
 label-focused-underline = #7272ff
 
-label-unfocused = %index%
-label-unfocused-padding = 3
+label-unfocused = %icon%
+label-unfocused-padding = 1
 label-unfocused-margin = 0
 label-unfocused-font = 1
 label-unfocused-background = #303030
 label-unfocused-foreground = #aaaaaa
 
-label-urgent = %index%
-label-urgent-padding = 2
+label-urgent = %icon%
+label-urgent-padding = 1
 label-urgent-margin = 1
 label-urgent-font = 1
 label-urgent-background = #ff7272
@@ -60,6 +63,21 @@ label-visible-padding = 2
 label-visible-margin = 1
 label-visible-font = 1
 
+ws-icon-0 = 1;
+ws-icon-0-font = 2
+ws-icon-1 = 2;
+ws-icon-1-font = 2
+ws-icon-2 = 3;
+ws-icon-2-font = 2
+ws-icon-3 = 4;
+ws-icon-3-font = 2
+ws-icon-4 = 5;
+ws-icon-4-font = 2
+ws-icon-5 = 6;
+ws-icon-5-font = 2
+ws-icon-default = 
+ws-icon-0-default = 2
+
 [module/cpu]
 type = internal/cpu
 interval = 0.5
@@ -67,7 +85,7 @@ interval = 0.5
 format = <label>
 format-foreground = #eeeeee
 format-underline = #72ff72
-format-padding = 2
+format-padding = 0
 
 label = %{T2}%{T-} %percentage%%
 label-font = 2
@@ -93,7 +111,7 @@ ramp-coreload-7-font = 3
 type = internal/memory
 
 format = <label>
-format-padding = 2
+format-padding = 0
 format-foreground = #eeeeee
 format-underline = #ffff72
 
@@ -106,7 +124,7 @@ interval = 1
 
 time = %{T2}%{T-} %H:%M
 
-format-padding = 2
+format-padding = 0
 format-underline = #7272ff
 
 label = %time%
@@ -159,7 +177,7 @@ label-volume-foreground = #eeeeee
 
 ramp-volume-0 = 
 ramp-volume-1 = 
-ramp-volume-2 = 
+ramp-volume-2 = 
 ramp-volume-3 =  
 
 label-muted = %{T2}%{T-} muted
