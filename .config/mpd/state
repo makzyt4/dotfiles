@@ -1,9 +1,9 @@
 sw_volume: 98
 audio_device_state:1:mpd pulse-audio-output
 audio_device_state:1:My HTTP Stream
-state: play
-current: 1
-time: 4.017000
+state: pause
+current: 2
+time: 50.619000
 random: 0
 repeat: 0
 single: 0
