@@ -18,7 +18,7 @@ rofi.columns: 1
 rofi.sidebar-mode: false
 
 ! Padding
-rofi.padding: 400
+rofi.padding: 600
 
 ! Full width
 rofi.width: 100
