@@ -51,7 +51,7 @@ label-unfocused-padding = 1
 label-unfocused-margin = 0
 label-unfocused-font = 1
 label-unfocused-background = #303030
-label-unfocused-foreground = #aaaaaa
+label-unfocused-foreground = #505050
 
 label-urgent = %icon%
 label-urgent-padding = 1
