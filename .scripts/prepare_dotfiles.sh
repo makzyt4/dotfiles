@@ -8,7 +8,6 @@ cp -r ~/.config/neofetch ~/dotfiles/.config
 cp -r ~/.config/polybar ~/dotfiles/.config
 cp -r ~/.config/ranger ~/dotfiles/.config
 cp -r ~/.config/rofi ~/dotfiles/.config
-cp -r ~/.mpdscribble/ ~/dotfiles
 cp -r ~/.ncmpcpp ~/dotfiles
 cp -r ~/.scripts ~/dotfiles
 cp -r ~/.urxvt ~/dotfiles
