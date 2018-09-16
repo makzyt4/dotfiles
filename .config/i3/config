@@ -168,9 +168,9 @@ bindsym XF86MonBrightnessDown exec xbacklight -dec 20 # decrease screen brightne
 # Some application binds
 bindsym $mod+Shift+x exec i3lock-fancy
 bindsym $mod+Shift+m exec urxvt -e ncmpcpp
+bindsym $mod+Shift+f exec urxvt -e ranger
 bindsym $mod+Shift+b exec firefox
 bindsym $mod+d exec rofi -show run -opacity 85
-bindsym $mod+Shift+e exec rofigen ~/.rofi_menus/powermenu.sh
 
 # autostart
 exec_always mpd
