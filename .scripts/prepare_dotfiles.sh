@@ -11,6 +11,7 @@ cp -r ~/.config/rofi ~/dotfiles/.config
 cp -r ~/.ncmpcpp ~/dotfiles
 cp -r ~/.scripts ~/dotfiles
 cp -r ~/.urxvt ~/dotfiles
+cp -r ~/.vim ~/dotfiles
 cp -r ~/.wallpapers ~/dotfiles
 cp ~/.config/compton.conf ~/dotfiles/.config
 cp ~/.bashrc ~/dotfiles

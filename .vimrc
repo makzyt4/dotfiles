@@ -15,6 +15,7 @@ Plugin 'airblade/vim-gitgutter'
 call vundle#end()
 
 filetype plugin indent on  
+colorscheme yuma
 syntax on
 
 set number
