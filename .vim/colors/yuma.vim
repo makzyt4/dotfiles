@@ -12,11 +12,11 @@ endif
 set t_Co=256
 let g:colors_name = "yuma"
 hi Normal		ctermfg=15 ctermbg=0 cterm=Bold
-hi NonText		ctermfg=12
+hi NonText		ctermfg=15
 hi comment		ctermfg=7
 hi constant		ctermfg=12
-hi identifier	ctermfg=12
-hi statement	ctermfg=9
+hi identifier	ctermfg=15
+hi statement	ctermfg=12
 hi preproc		ctermfg=13
 hi type			ctermfg=10
 hi special		ctermfg=9

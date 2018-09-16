@@ -16,6 +16,7 @@ cp -r ~/.wallpapers ~/dotfiles
 cp ~/.config/compton.conf ~/dotfiles/.config
 cp ~/.bashrc ~/dotfiles
 cp ~/.fehbg ~/dotfiles
+cp ~/.pylintrc ~/dotfiles
 cp ~/.vimrc ~/dotfiles
 cp ~/.xinitrc ~/dotfiles
 cp ~/.Xresources ~/dotfiles
