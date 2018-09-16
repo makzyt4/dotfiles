@@ -172,7 +172,13 @@ bindsym $mod+Shift+f exec urxvt -e ranger
 bindsym $mod+Shift+b exec firefox
 bindsym $mod+d exec rofi -show run -opacity 85
 
-# autostart
+# Music keys
+bindsym XF86AudioPlay exec mpc toggle
+bindsym XF86AudioStop exec mpc stop
+bindsym XF86AudioPrev exec mpc prev
+bindsym XF86AudioNext exec mpc next
+
+# Autostart
 exec_always mpd
 exec_always mpdscribble
 exec_always compton -cCGfF -o 0.38 -O 200 -I 200 -t 0 -l 0 -r 3 -D2 -m 0.88
