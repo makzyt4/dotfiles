@@ -1,3 +1,22 @@
+set nocompatible
+filetype off
+
+" Set the runtime path to include Vundle and initialize
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+
+" Plugins
+Plugin 'VundleVim/Vundle.vim'
+Plugin 'itchyny/lightline.vim'
+Plugin 'scrooloose/nerdtree'
+Plugin 'w0rp/ale' 
+Plugin 'airblade/vim-gitgutter'
+
+call vundle#end()
+
+filetype plugin indent on  
+syntax on
+
 set number
 set nocompatible
 set hidden
@@ -17,5 +36,8 @@ set shiftwidth=4
 set softtabstop=4
 set expandtab
 
-filetype indent plugin on
-syntax on
+" Key mappings
+map <C-o> :NERDTreeToggle<CR> 
+
+" Plugin settings
+let b:ale_linters = ['pylint'] 
