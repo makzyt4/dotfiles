@@ -13,6 +13,7 @@ cp -r ~/.scripts ~/dotfiles
 cp -r ~/.urxvt ~/dotfiles
 cp -r ~/.wallpapers ~/dotfiles
 cp ~/.config/compton.conf ~/dotfiles/.config
+cp ~/.bashrc ~/dotfiles
 cp ~/.fehbg ~/dotfiles
 cp ~/.vimrc ~/dotfiles
 cp ~/.xinitrc ~/dotfiles
