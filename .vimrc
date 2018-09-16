@@ -42,3 +42,6 @@ map <C-o> :NERDTreeToggle<CR>
 
 " Plugin settings
 let b:ale_linters = ['pylint'] 
+
+let g:ycm_server_python_interpreter='/usr/bin/python'
+let g:ycm_global_ycm_extra_conf='~/.ycm_extra_conf.py'
