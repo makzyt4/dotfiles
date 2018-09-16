@@ -21,3 +21,4 @@ cp ~/.vimrc ~/dotfiles
 cp ~/.xinitrc ~/dotfiles
 cp ~/.Xresources ~/dotfiles
 cp ~/.zshrc ~/dotfiles
+rm -rf ~/dotfiles/.vim/bundle

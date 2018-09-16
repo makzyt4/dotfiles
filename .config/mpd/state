@@ -1,9 +1,9 @@
-sw_volume: 98
+sw_volume: 100
 audio_device_state:1:mpd pulse-audio-output
 audio_device_state:1:My HTTP Stream
 state: pause
-current: 2
-time: 50.619000
+current: 5
+time: 61.882000
 random: 0
 repeat: 0
 single: 0
@@ -12,12 +12,34 @@ crossfade: 0
 mixrampdb: 0.000000
 mixrampdelay: -1.000000
 playlist_begin
-0:Roxy Music/[1973] For Your Pleasure/01 - Do the Strand.flac
-1:Roxy Music/[1973] For Your Pleasure/02 - Beauty Queen.flac
-2:Roxy Music/[1973] For Your Pleasure/03 - Strictly Confidential.flac
-3:Roxy Music/[1973] For Your Pleasure/04 - Editions of You.flac
-4:Roxy Music/[1973] For Your Pleasure/05 - In Every Dream Home a Heartache.flac
-5:Roxy Music/[1973] For Your Pleasure/06 - The Bogus Man.flac
-6:Roxy Music/[1973] For Your Pleasure/07 - Grey Lagoons.flac
-7:Roxy Music/[1973] For Your Pleasure/08 - For Your Pleasure.flac
+0:trash/Bob Dylan - Triplicate (2017) [FLAC 24-96]/0101 I Guess I'll Have To Change My Plans.flac
+1:trash/Bob Dylan - Triplicate (2017) [FLAC 24-96]/0102 September Of My Years.flac
+2:trash/Bob Dylan - Triplicate (2017) [FLAC 24-96]/0103 I Could Have Told You.flac
+3:trash/Bob Dylan - Triplicate (2017) [FLAC 24-96]/0104 Once Upon A Time.flac
+4:trash/Bob Dylan - Triplicate (2017) [FLAC 24-96]/0105 Stormy Weather.flac
+5:trash/Bob Dylan - Triplicate (2017) [FLAC 24-96]/0106 This Nearly Was Mine.flac
+6:trash/Bob Dylan - Triplicate (2017) [FLAC 24-96]/0107 That Old Feeling.flac
+7:trash/Bob Dylan - Triplicate (2017) [FLAC 24-96]/0108 It Gets Lonely Early.flac
+8:trash/Bob Dylan - Triplicate (2017) [FLAC 24-96]/0109 My One And Only Love.flac
+9:trash/Bob Dylan - Triplicate (2017) [FLAC 24-96]/0110 Trade Winds.flac
+10:trash/Bob Dylan - Triplicate (2017) [FLAC 24-96]/0201 Braggin'.flac
+11:trash/Bob Dylan - Triplicate (2017) [FLAC 24-96]/0202 As Time Goes By.flac
+12:trash/Bob Dylan - Triplicate (2017) [FLAC 24-96]/0203 Imagination.flac
+13:trash/Bob Dylan - Triplicate (2017) [FLAC 24-96]/0204 How Deep Is The Ocean.flac
+14:trash/Bob Dylan - Triplicate (2017) [FLAC 24-96]/0205 P.S. I Love You.flac
+15:trash/Bob Dylan - Triplicate (2017) [FLAC 24-96]/0206 The Best Is Yet To Come.flac
+16:trash/Bob Dylan - Triplicate (2017) [FLAC 24-96]/0207 But Beautiful.flac
+17:trash/Bob Dylan - Triplicate (2017) [FLAC 24-96]/0208 Here's That Rainy Day.flac
+18:trash/Bob Dylan - Triplicate (2017) [FLAC 24-96]/0209 Where Is The One.flac
+19:trash/Bob Dylan - Triplicate (2017) [FLAC 24-96]/0210 There's A Flaw In My Flue.flac
+20:trash/Bob Dylan - Triplicate (2017) [FLAC 24-96]/0301 Day In, Day Out.flac
+21:trash/Bob Dylan - Triplicate (2017) [FLAC 24-96]/0302 I Couldn't Sleep A Wink Last Night.flac
+22:trash/Bob Dylan - Triplicate (2017) [FLAC 24-96]/0303 Sentimental Journey.flac
+23:trash/Bob Dylan - Triplicate (2017) [FLAC 24-96]/0304 Somewhere Along The Way.flac
+24:trash/Bob Dylan - Triplicate (2017) [FLAC 24-96]/0305 When The World Was Young.flac
+25:trash/Bob Dylan - Triplicate (2017) [FLAC 24-96]/0306 These Foolish Things.flac
+26:trash/Bob Dylan - Triplicate (2017) [FLAC 24-96]/0307 You Go To My Head.flac
+27:trash/Bob Dylan - Triplicate (2017) [FLAC 24-96]/0308 Stardust.flac
+28:trash/Bob Dylan - Triplicate (2017) [FLAC 24-96]/0309 It's Funny To Everyone But Me.flac
+29:trash/Bob Dylan - Triplicate (2017) [FLAC 24-96]/0310 Why Was I Born.flac
 playlist_end

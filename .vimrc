@@ -9,8 +9,8 @@ call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'itchyny/lightline.vim'
 Plugin 'scrooloose/nerdtree'
-Plugin 'w0rp/ale' 
-Plugin 'airblade/vim-gitgutter'
+Plugin 'w0rp/ale'
+Plugin 'valloric/youcompleteme'
 
 call vundle#end()
 
